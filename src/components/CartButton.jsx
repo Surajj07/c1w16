@@ -1,5 +1,5 @@
 
-import {UseState} from "react";
+import {useState} from "react";
 import React from "react";
 
 // keep the add to cart component here
@@ -8,7 +8,7 @@ import React from "react";
 
 const CartButton = () => {
     //manage state of the count 
-    const [count,setCount]=React.UseState(0)
+    const [count,setCount]=React.useState(0)
 const handleClick=(value)=>{
     setCount(count+value)
 }
