@@ -17,9 +17,15 @@ const handleClick=(value)=>{
   {/* add to cart button */}
   {/* count with - and  + button */}
   <div>
+<<<<<<< HEAD
       <button onClick={()=>handleClick(-1)}>-</button>
       <p className="count-item">{count}</p>
       <button onClick={()=>handleClick(1)}>+</button>
+=======
+      <button>-</button>
+      {/* <p className="count-item">{count}</p> */}
+      <button>+</button>
+>>>>>>> fb1183de3dbf16e6bb11ba138f244c2e736a7ce7
   </div>
   </>
   )
